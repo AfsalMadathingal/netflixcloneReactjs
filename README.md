@@ -19,7 +19,7 @@ This project is a Netflix clone created using React.js for the frontend and Fire
 
 [Link to live demo]
 
-![Netflix Clone Screenshot](/screenshot.png)
+![image](https://github.com/AfsalMadathingal/netflixcloneReactjs/assets/143309091/9a01e2ba-1ada-4d36-b22b-7c80dec8fc5a)
 
 ## Technologies
 
