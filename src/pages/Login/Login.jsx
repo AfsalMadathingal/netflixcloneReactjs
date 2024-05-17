@@ -45,10 +45,10 @@ const Login = () => {
         <h1>{singState}</h1>
         <form action="">
 
-          {singState==="Sign Up" ?   <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}} placeholder='Your Nmae' /> : <></>}
+          {singState==="Sign Up" ?   <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}} placeholder='Your Name' /> : <></>}
         
           <input value={email} onChange={(e)=>{setEmail(e.target.value)}} type="text" placeholder='Email' />
-          <input value={password} onChange={(e)=>{setPassword(e.target.value)}} type="text" placeholder='Password' />
+          <input value={password} onChange={(e)=>{setPassword(e.target.value)}} type="password" placeholder='Password' />
           <button onClick={user_auth} type='submit'>{singState}</button>
           <div className="form-help">
             <div className="remember">
